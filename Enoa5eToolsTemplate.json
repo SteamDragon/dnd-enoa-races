@@ -1,0 +1,73 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "enoa",
+                "abbreviation": "enoa",
+                "full": "ЭНОА",
+                "authors": [
+                    "Unseen"
+                ],
+                "convertedBy": [
+                    "steamdragon"
+                ],
+                "version": "0.33",
+                "url": "https://docs.google.com/document/d/1fiNzIRRSBw-nbvSk5S8Vxu7qnbVyrPcP5SmITiBY8dc",
+                "targetSchema": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "language": [
+        {
+            "name": "Даскарский",
+            "source": "enoa",
+            "entries": [
+                {
+                    "type" : "standard",
+                    "typicalSpeakers": [
+                        "Все жители осколка Даскара"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Аджаидский",
+            "source": "enoa",
+            "entries": [
+                {
+                    "type" : "standard",
+                    "typicalSpeakers": [
+                        "Аджаиды"
+                    ]
+                }
+            ]
+        }
+    ],
+    "race": [
+        {
+            "name": "Аджаид",
+            "source": "enoa",
+            "page": "47",
+            "ability": [
+                {
+                    "dex": 2,
+                    "wis": 1
+                }
+            ],
+            "size": ["M"],
+            "speed": 40,
+            "languageProficiencies": [
+                {
+                    "Даскарский": true,
+                    "Аджаидский" : true
+                }],
+            "skillProficiencies": [
+                {
+                    "acrobatics": true
+                }
+            ]
+        }
+    ]
+}
