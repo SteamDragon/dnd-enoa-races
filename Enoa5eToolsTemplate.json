@@ -3,7 +3,7 @@
         "sources": [
             {
                 "json": "enoa",
-                "abbreviation": "enoa",
+                "abbreviation": "ЭНОА",
                 "full": "ЭНОА",
                 "authors": [
                     "Unseen"
@@ -22,7 +22,7 @@
     "language": [
         {
             "name": "Даскарский",
-            "source": "enoa",
+            "source": "ЭНОА",
             "entries": [
                 {
                     "type" : "standard",
@@ -34,7 +34,7 @@
         },
         {
             "name": "Аджаидский",
-            "source": "enoa",
+            "source": "ЭНОА",
             "entries": [
                 {
                     "type" : "standard",
@@ -48,7 +48,7 @@
     "race": [
         {
             "name": "Аджаид",
-            "source": "enoa",
+            "source": "ЭНОА",
             "page": "47",
             "ability": [
                 {
