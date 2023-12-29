@@ -1,0 +1,171 @@
+{
+    "_meta": {
+      "sources": [
+        {
+          "json": "enoaSpells",
+          "abbreviation": "ЭНОА",
+          "full": "ЭНОА Заклинания",
+          "authors": [
+            "Unseen"
+          ],
+          "convertedBy": [
+            "steamdragon"
+          ],
+          "version": "0.33",
+          "url": "https://docs.google.com/document/d/1fiNzIRRSBw-nbvSk5S8Vxu7qnbVyrPcP5SmITiBY8dc",
+          "targetSchema": "1.0"
+        }
+      ],
+      "currencyConversions": {
+        "EnoaCurrencies": [
+          {
+            "coin": "ПМ",
+            "mult": 1
+          },
+          {
+            "coin": "ЛМ",
+            "mult": 0.01,
+            "isFallback": true
+          },
+          {
+            "coin": "СМ",
+            "mult": 0.0001,
+            "isFallback": true
+          },
+          {
+            "coin": "БМ",
+            "mult": 0.000001,
+            "isFallback": true
+          },
+          {
+            "coin": "ИШ",
+            "mult": 1e-8,
+            "isFallback": true
+          }
+        ]
+      },
+      "dateAdded": 0,
+      "dateLastModified": 0
+    },
+    "spell": [
+      {
+        "name": "Доспех из гвоздей",
+        "level": 1,
+        "source": "enoa",
+        "school": "A",
+        "time": [
+          {
+            "number": 1,
+            "unit": "action"
+          }
+        ],
+        "range": {
+          "type": "point",
+          "distance": {
+            "type": "self"
+          }
+        },
+        "components": {
+          "v": true,
+          "s": true,
+          "m": "мешочек гвоздей"
+        },
+        "duration": [
+          {
+            "type": "timed",
+            "duration": {
+              "type": "hour",
+              "amount": 1
+            }
+          }
+        ],
+        "entries": [
+          "Вас окружает защитное магическое поле, проявляющееся в виде призрачной брони с гвоздями, торчащими во все стороны, покрывшей вас и ваше снаряжение. Вы получаете 5 временных хитов на период действия заклинания. Если существо попадает по вам рукопашной атакой, пока у вас есть эти хиты, оно получает 5 колющего урона."
+        ],
+        "entriesHigherLevel": [
+          {
+            "type": "entries",
+            "name": "На больших уровнях",
+            "entries": [
+              "Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, и временные хиты и колющий урон увеличиваются на 5 за каждый уровень ячейки выше первого."
+            ]
+          }
+        ],
+        "damageInflict": [
+          "piercing"
+        ],
+        "miscTags": [
+          "THP"
+        ],
+        "races": [
+          {
+            "name": "Удриш (Эрил)",
+            "source": "enoa",
+            "baseName": "Удриш",
+            "baseSource": "enoa"
+          }
+        ]
+      },
+      {
+        "name": "Водяной заряд",
+        "source": "enoa",
+        "page": 96,
+        "basicRules": true,
+        "level": 0,
+        "school": "C",
+        "time": [
+          {
+            "number": 1,
+            "unit": "bonus"
+          }
+        ],
+        "range": {
+          "type": "point",
+          "distance": {
+            "type": "feet",
+            "amount": 30
+          }
+        },
+        "components": {
+          "v": true,
+          "s": true
+        },
+        "duration": [
+          {
+            "type": "instant"
+          }
+        ],
+        "entries": [
+          "Поток воды собирается в тонкую иглу, легко пробивающий противника.",
+          "Урон водяного заряда равен {@damage 1d4} колющего урона.",
+          "Урон водяного заряда повышается до {@dice 1d6}, когда вы достигаете 5-го уровня, ({@damage 1d8}) — на 11-м уровне и ({@damage 1d10}) — на 17-м уровне"
+        ],
+        "scalingLevelDice": {
+          "label": "piercing damage",
+          "scaling": {
+            "1": "1d4",
+            "5": "1d6",
+            "11": "1d8",
+            "17": "1d10"
+          }
+        },
+        "damageInflict": [
+          "piercing"
+        ],
+        "miscTags": [
+          "SCL",
+          "SGT"
+        ],
+        "areaTags": [
+          "ST",
+          "MT"
+        ],
+        "races": [
+          {
+            "name": "Самагхи",
+            "source": "enoa"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "enoaBardCollegeofFakirs",
+        "abbreviation": "ЭНОА",
+        "full": "ЭНОА Подклассы: Бард Коллегия Факиров",
+        "authors": [
+          "Unseen"
+        ],
+        "convertedBy": [
+          "steamdragon"
+        ],
+        "version": "0.33",
+        "url": "https://docs.google.com/document/d/1fiNzIRRSBw-nbvSk5S8Vxu7qnbVyrPcP5SmITiBY8dc",
+        "targetSchema": "1.0"
+      }
+    ],
+    "dateAdded": 0,
+    "dateLastModified": 0
+  },
+  "subclass": [
+    {
+      "name": "Коллегия Факиров",
+      "source": "enoaBardCollegeofFakirs",
+      "page": 153,
+      "shortName": "Факир",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassFeatures": [
+        "Владение экзотическим оружием|Bard|PHB|Факир|enoaBardCollegeofFakirs|1|enoasubclassFeature",
+        "Коллегия Факиров|Bard|PHB|Факир|enoaBardCollegeofFakirs|3|enoasubclassFeature",
+        "Боевой Стиль|Bard|PHB|Факир|enoaBardCollegeofFakirs|3|enoasubclassFeature",
+        "Мгновения Зикир|Bard|PHB|Факир|enoaBardCollegeofFakirs|3|enoasubclassFeature",
+        "Огненный Желудок|Bard|PHB|Факир|enoaBardCollegeofFakirs|3|enoasubclassFeature",
+        "Укрепление Огненного Желудка|Bard|PHB|Факир|enoaBardCollegeofFakirs|5|enoasubclassFeature",
+        "Укрепление Огненного Желудка|Bard|PHB|Факир|enoaBardCollegeofFakirs|10|enoasubclassFeature",
+        "Укрепление Огненного Желудка|Bard|PHB|Факир|enoaBardCollegeofFakirs|15|enoasubclassFeature",
+        "Дополнительная Атака|Bard|PHB|Факир|enoaBardCollegeofFakirs|6|enoasubclassFeature",
+        "Боль - Ничто|Bard|PHB|Факир|enoaBardCollegeofFakirs|14|enoasubclassFeature"
+      ]
+    }
+  ]
+}

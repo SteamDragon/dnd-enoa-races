@@ -1,0 +1,41 @@
+{
+    "_meta": {
+      "sources": [
+        {
+          "json": "enoaBardCollegeofChaemant",
+          "abbreviation": "ЭНОА",
+          "full": "ЭНОА Подклассы: Бард Коллегия Чаемантии",
+          "authors": [
+            "Unseen"
+          ],
+          "convertedBy": [
+            "steamdragon"
+          ],
+          "version": "0.33",
+          "url": "https://docs.google.com/document/d/1fiNzIRRSBw-nbvSk5S8Vxu7qnbVyrPcP5SmITiBY8dc",
+          "targetSchema": "1.0"
+        }
+      ],
+      "dateAdded": 0,
+      "dateLastModified": 0
+    },
+    "subclass": [    
+        {
+        "name": "Коллегия Чаемантии",
+        "source": "enoaBardCollegeofChaemant",
+        "page": 156,
+        "shortName": "Чаемант",
+        "className": "Bard",
+        "classSource": "PHB",
+        "subclassFeatures": [
+          "Коллегия Чаемантии|Bard|PHB|Чаемант|enoaBardCollegeofChaemant|3|enoasubclassFeature",
+          "Искусство варки чая|Bard|PHB|Чаемант|enoaBardCollegeofChaemant|3|enoasubclassFeature",
+          "Дары Ира|Bard|PHB|Чаемант|enoaBardCollegeofChaemant|3|enoasubclassFeature",
+          "Новые Дары Ира|Bard|PHB|Чаемант|enoaBardCollegeofChaemant|6|enoasubclassFeature",
+          "Новые Дары Ира|Bard|PHB|Чаемант|enoaBardCollegeofChaemant|14|enoasubclassFeature",
+          "Традиции чая|Bard|PHB|Чаемант|enoaBardCollegeofChaemant|6|enoasubclassFeature",
+          "Чайник душ|Bard|PHB|Чаемант|enoaBardCollegeofChaemant|14|enoasubclassFeature"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "enoaSubClasses",
+        "abbreviation": "ЭНОА",
+        "full": "ЭНОА Подклассы",
+        "authors": [
+          "Unseen"
+        ],
+        "convertedBy": [
+          "steamdragon"
+        ],
+        "version": "0.33",
+        "url": "https://docs.google.com/document/d/1fiNzIRRSBw-nbvSk5S8Vxu7qnbVyrPcP5SmITiBY8dc",
+        "targetSchema": "1.0"
+      }
+    ],
+    "currencyConversions": {
+      "EnoaCurrencies": [
+        {
+          "coin": "ПМ",
+          "mult": 1
+        },
+        {
+          "coin": "ЛМ",
+          "mult": 0.01,
+          "isFallback": true
+        },
+        {
+          "coin": "СМ",
+          "mult": 0.0001,
+          "isFallback": true
+        },
+        {
+          "coin": "БМ",
+          "mult": 0.000001,
+          "isFallback": true
+        },
+        {
+          "coin": "ИШ",
+          "mult": 1e-8,
+          "isFallback": true
+        }
+      ]
+    },
+    "dateAdded": 0,
+    "dateLastModified": 0
+  },
+  "subclass": [{
+    "name": "Way of the Boulder",
+    "source": "LLMT",
+    "page": 1,
+    "className": "Bard",
+    "classSource": "PHB",
+    "shortName": "Boulder",
+    "subclassFeatures": [
+    ]
+  },
+  {
+    "name": "Way of the Feral Warrior",
+    "source": "LLMT",
+    "page": 1,
+    "className": "Bard",
+    "classSource": "PHB",
+    "shortName": "Feral Warrior",
+    "subclassFeatures": [
+    ]
+  },
+  {
+    "name": "Way of the Sacred Ink",
+    "source": "LLMT",
+    "page": 1,
+    "className": "Bard",
+    "classSource": "PHB",
+    "shortName": "Sacred Ink",
+    "subclassFeatures": [
+    ]
+  }
+  ]
+}
